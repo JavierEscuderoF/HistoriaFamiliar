@@ -6,4 +6,4 @@ let init = 1;
 Array.from(document.getElementsByClassName("doc-header")).forEach(a => a.innerText = init++);
 
 // En las páginas con referencias, introduce el número correcto.
-Array.from(document.getElementsByClassName("ref")).forEach(a => a.innerText = "[" + (references.indexOf(a.id) + 1) + "]" );
+Array.from(document.getElementsByClassName("ref")).forEach(a => a.innerHTML = "<sup>[" + (references.indexOf(a.id) + 1) + "]</sup>" );
