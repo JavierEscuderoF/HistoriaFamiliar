@@ -1,7 +1,47 @@
 body {
     font-family: 'EB Garamond', serif;
+    font-size: 110%;
 }
 
-.ref {
+a {
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    font-variant: small-caps;
+    font-weight: normal;
     color: crimson;
+}
+
+.sc {
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.ref-a {
+    border-style: none solid;
+    border-color: crimson;
+    border-width: thin;
+    border-radius: 4px;
+    color: crimson;
+    margin: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.ref-a:hover {
+    background-color: crimson;
+    color: white;
+}
+
+.transcription {
+    border-style: solid;
+    border-width: thin;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    font-family: 'Sunshiney';
 }
